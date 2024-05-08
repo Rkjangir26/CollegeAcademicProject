@@ -2,13 +2,13 @@
     "version": 2,
     "builds": [
       {
-        "Academic-Backend": "server.js", 
+        "src": "server.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
-        "Academic-Backend": "/(.*)",
+        "src": "/(.*)",
         "dest": "server.js"
       }
     ]
