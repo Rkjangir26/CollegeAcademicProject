@@ -1,6 +1,6 @@
 const allowedOrigins = [
   
-  "http://localhost:3000",
+  "https://college-academic-project-frontend.vercel.app/",
 ];
 
 const corsOptions = {
