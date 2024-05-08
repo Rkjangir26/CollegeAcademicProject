@@ -9,7 +9,8 @@ const corsOptions = require("./config/corsOptions");
 const connectDB = require("./config/dbConn");
 const mongoose = require("mongoose");
 
-const PORT = process.env.PORT || "https://college-academic-project-frontend.vercel.app/";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://college-academic-project-frontend.vercel.app/";
+
 
 connectDB();
 
@@ -47,7 +48,7 @@ app.use(errorHandler);
 
 mongoose.connection.once("open", () => {
   console.log("Connected to MongoDB");
-  app.listen(PORT, () => console.log(`server running on PORT ${PORT}`));
+  app.listen(FRONTEND_URL, () => console.log(`server running on FRONTEND_URL ${FRONTEND_URL}`));
 });
 
 mongoose.connection.on("error", (err) => {
