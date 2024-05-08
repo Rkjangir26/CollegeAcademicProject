@@ -61,3 +61,4 @@ mongoose.connection.on("error", (err) => {
 mongoose.connection.on("uncaughtException", function (err) {
   console.log(err);
 });
+module.exports = app;
