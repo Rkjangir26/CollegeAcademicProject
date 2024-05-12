@@ -3,7 +3,7 @@ import axios from "axios";
 export default axios.create({
   baseURL:
    
- "http://localhost:3500",
+ "https://college-academic-project-backend.vercel.app/",
 
   headers: { "Content-Type": "application/json" },
 });
