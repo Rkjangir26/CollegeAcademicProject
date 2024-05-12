@@ -13,8 +13,8 @@ PS: BE KIND :)
 
 ### Teacher [staff]
 
-**username:** Delphine  
-**pwd:** Delphine123
+**username:** 
+**pwd:** 
 
 Teacher can add or edit
 
@@ -25,8 +25,8 @@ Teacher can add or edit
 
 ### HOD (Head of Department) [staff]
 
-**username:** Moriah  
-**pwd:** Moriah123
+**username:** 
+**pwd:** 
 
 HOD can do everything Teacher can.  
 HOD can also
