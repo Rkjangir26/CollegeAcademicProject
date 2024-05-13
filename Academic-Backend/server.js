@@ -9,7 +9,7 @@ const corsOptions = require("./config/corsOptions");
 const connectDB = require("./config/dbConn");
 const mongoose = require("mongoose");
 
-const PORT = "https://college-academic-project-backend.vercel.app/";
+const PORT = process.env.PORT || 3500;
 
 connectDB();
 
