@@ -8,7 +8,7 @@ const corsOptions = {
     if (
       allowedOrigins.indexOf(origin) !== -1
       //! comment out/remove in production
-       // || !origin
+       || !origin
     ) {
       callback(null, true);
     } else {
